@@ -2,18 +2,19 @@ project:
   type: website
 
 website:
-  title: "wedding_site"
+  title: "Shane and Scout's Berkeley Wedding"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: WeddingWeekend.qmd
+        text: Wedding Weekend
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
-
+    theme: 
+      - quartz
+      - styles.scss
+  
 editor: visual
 

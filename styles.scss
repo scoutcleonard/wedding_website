@@ -1,0 +1,40 @@
+/*-- scss:defaults --*/
+
+// Custom color variables
+$theme-primary: #ffd29d;       // Poppy orange
+$theme-secondary: #6d7054;     // Sage green
+$body-bg: #FAF3E0;             // Creamy background
+$body-color: #6d7054;          // Text
+$link-color: #F6A623;          // Links in orange
+$link-hover-color: darken($link-color, 10%);
+$navbar-bg: #FAF3E0;
+$navbar-fg: #6d7054;
+$footer-bg: #FAF3E0;
+$footer-fg: #6d7054;
+
+/*-- scss:rules --*/
+
+// Apply a soft orange background to body and relevant sections
+body, .quarto-background, .hero, section.hero, .page-cover, .quartz-cover {
+  background: #ffd29d !important;  // Soft orange (California poppy)
+  background-image: none !important;  // Remove any gradient or image
+  color: #6B705C;  // Olive text
+}
+
+// Optional: Remove unwanted text shadow or overlays
+.hero, .hero * {
+  text-shadow: none !important;
+}
+
+// Center figure captions
+figcaption {
+  text-align: center;
+  font-style: italic;  // Optional: You can change this for style
+  color: #6B705C;  // Optional: Set the color of the caption to match your theme
+}
+
+// Center all headers (h1, h2, h3, etc.)
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  color: #6B705C;  // Optional: Set the header text color to match your theme
+}
