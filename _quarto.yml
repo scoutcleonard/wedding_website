@@ -9,6 +9,8 @@ website:
         text: Home
       - href: WeddingWeekend.qmd
         text: Wedding Weekend
+      - href: VisitingtheEastBay.qmd
+        text: Visiting the East Bay
 
 format:
   html:
