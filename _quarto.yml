@@ -12,12 +12,20 @@ website:
         text: Wedding Weekend
       - href: VisitingtheEastBay.qmd
         text: Visiting the East Bay
+    right:
+      - text: Get in Touch
+        menu:
+          - text: Email Scout
+            href: "scoutcleonard@gmail.com"
+          - text: Email Shane
+            href: "shanedevlin33@gmail.com"
 
 format:
   html:
     theme: 
       - quartz
       - styles.scss
-  
+
 editor: visual
+
 

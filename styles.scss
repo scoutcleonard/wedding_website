@@ -64,3 +64,13 @@ div.callout-note .callout-icon::before,
 div.callout .callout-icon::before {
   color: $theme-secondary !important;
 }
+
+/* Make navbar dropdown background opaque */
+.navbar .dropdown-menu {
+  background-color: #F6A623 !important; 
+  opacity: 1 !important;
+  backdrop-filter: none !important; /* Removes any glassy blur effect */
+  border: 1px solid #ccc; /* Adds a subtle border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds soft shadow */
+}
+
