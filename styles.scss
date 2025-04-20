@@ -38,3 +38,29 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #6B705C;  // Optional: Set the header text color to match your theme
 }
+
+/* Custom wedding-themed callouts */
+div.callout-note,
+div.callout {
+  border-left: 4px solid $theme-secondary !important;
+  background-color: lighten($theme-primary, 25%) !important; // pale orange
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05) !important;
+  border-radius: 12px !important;
+  color: $theme-secondary !important;
+  font-size: 1rem;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+div.callout-note .callout-title,
+div.callout .callout-title {
+  background-color: transparent !important;
+  color: $theme-secondary !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+div.callout-note .callout-icon::before,
+div.callout .callout-icon::before {
+  color: $theme-secondary !important;
+}
