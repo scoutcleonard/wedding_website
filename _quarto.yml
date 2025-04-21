@@ -12,8 +12,8 @@ website:
         text: Wedding Weekend
       - href: VisitingtheEastBay.qmd
         text: Visiting the East Bay
-      - href: photos.qmd
-        text: Photos
+      - href: frivolity.qmd
+        text: Frivolity
     right:
       - text: Get in Touch
         menu:

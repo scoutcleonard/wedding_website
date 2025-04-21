@@ -1,0 +1,29 @@
+---
+title: "Frivolity/Photos/FUN"
+format: html
+resources:
+  - lightbox.css
+  - lightbox.js
+---
+
+We're not doing engagement photos but we *are* sharing all these amazing photos of our life together. Enjoy these snapshots of our sweet and silly life. **We love you!**
+
+# Aw!
+
+# Marmee
+
+# 1 Second Everyday
+
+## 2024
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vLd15zR0QEk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 2022
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oF-L-YcM-r4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 2020
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zZsi-enUrFU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
