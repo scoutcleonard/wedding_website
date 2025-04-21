@@ -1,6 +1,80 @@
 ---
 title: "Visting the Bay Area"
-format: html
+format: 
+  html:
+    toc: true
+    toc-location: right
+    toc-title: "On this page"
+    toc-depth: 3
+    toc-floating: true
+resources:
+  - lightbox.css
+  - lightbox.js
+comments:
+  hypothesis: 
+    theme: clean
 ---
 
-# Where to Stay 
+In our 6 years of life here, we have come to love the East Bay and the greater Bay Area. We'll be overjoyed to have so many of our loved ones visiting for our wedding weekend. Whether you're just looking for lodging recommendations, or planning to stay and explore beautiful California, you'll find some of our favorite recommendations below. 
+
+This is just a start, but we could talk about Berkeley, Oakland, San Francisco, Marin, Yosemite, Tahoe, etc. etc. etc. at great length! **Feel free to reach out if you want any specific recommendations; we'll be so glad to help!**
+
+<!-- Lightbox CSS & JS via CDN -->
+<link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
+
+<div class="gallery"
+<a href="images/elcap2.JPG" data-lightbox="places1">
+  <img src="images/elcap2.JPG" style="width:200px; margin:5px;" />
+</a>
+<a href="images/bridge.jpeg" data-lightbox="places1">
+  <img src="images/bridge.jpeg" style="width:200px; margin:5px;" />
+</a>
+<a href="images/lbl.JPG" data-lightbox="places1">
+  <img src="images/lbl.JPG" style="width:200px; margin:5px;" />
+</a>
+<a href="images/oracle_park.JPG" data-lightbox="places1">
+  <img src="images/oracle_park.JPG" style="width:200px; margin:5px;" />
+</a>
+<a href="images/napa3.jpg" data-lightbox="places1">
+  <img src="images/napa3.jpg" style="width:200px; margin:5px;" />
+</a>
+<a href="images/truckee.jpeg" data-lightbox="places1">
+  <img src="images/truckee.jpeg" style="width:200px; margin:5px;" />
+</a>
+</div>
+
+# Where to Stay
+
+## Suggested Neighborhoods
+
+::: {.callout collapse="true"}
+### The Gilman / Westbrae Neightborhood
+
+This may not be a fair suggestion, as hotels are harder to come by, but this is our beloved neighborhood. We'll plan to host in our cozy home for parts of the weekend, so if you can find an AirBnb in our walkable neighborhood, you'll be close to the fun :)
+
+Solano Ave. and North Berkeley BART are convenient from here. 
+:::
+
+::: {.callout collapse="true"}
+### Downtown Berkeley
+
+Downtown Berkeley is the city's central location for restaurants and attractions. It's near the beautiful UC Berkeley Campus and has access to the Downtown Berkeley BART Station. This neighborhood is also quite close to our ceremony venue, the UC Berkeley Botanical Garden!
+
+You'll find hotels to pick from around here, and some restaurants dear to us ([Jupiter](http://www.jupiterbeer.com/#home)?!?)
+:::
+
+::: {.callout collapse="true"}
+### Emeryville
+
+Emeryville is proximate to Berkeley and Oakland and is famously home to Pixar Studio's and [America's Bike Mayor](https://www.youtube.com/watch?v=XeO8M4tfV5I). It's a bike- and predestrian-friendly city with access to Berkeley and Oakland. There are a few hotels with views of the Bay here!
+
+:::
+
+## Suggested Hotels 
+
+# Where to Eat
+
+# Stuff to Check Out
+
+# Other Tips

@@ -74,3 +74,12 @@ div.callout .callout-icon::before {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds soft shadow */
 }
 
+.gallery img {
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
