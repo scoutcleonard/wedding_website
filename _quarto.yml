@@ -19,10 +19,10 @@ website:
     right:
       - text: Get in Touch
         menu:
-          - text: Email Scout
-            href: "mailto:scoutcleonard@gmail.com"
-          - text: Email Shane
-            href: "mailto:shanedevlin33@gmail.com"
+          - text: "Email Scout"
+            href: "<mailto:scoutcleonard@gmail.com>"
+          - text: "Email Shane"
+            href: "<mailto:shanedevlin33@gmail.com>"
 
 format:
   html:
