@@ -5,4 +5,4 @@ format: html
 
 We’d love to know if you’re coming! Please fill out the form below.
 
-_Coming soon._
+*Coming soon.*

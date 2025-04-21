@@ -20,9 +20,9 @@ website:
       - text: Get in Touch
         menu:
           - text: Email Scout
-            href: "scoutcleonard@gmail.com"
+            href: "mailto:scoutcleonard@gmail.com"
           - text: Email Shane
-            href: "shanedevlin33@gmail.com"
+            href: "mailto:shanedevlin33@gmail.com"
 
 format:
   html:
@@ -33,5 +33,6 @@ format:
       - scripts/nav-scroll.js
 
 editor: visual
+
 
 
