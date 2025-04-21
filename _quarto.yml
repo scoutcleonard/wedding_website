@@ -8,6 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: rsvp.qmd
+        text: RSVP
       - href: WeddingWeekend.qmd
         text: Wedding Weekend
       - href: VisitingtheEastBay.qmd

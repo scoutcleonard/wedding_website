@@ -6,7 +6,7 @@ resources:
   - lightbox.js
 ---
 
-We're not doing engagement photos but we *are* sharing all these amazing photos of our life together. Enjoy these snapshots of our sweet and silly life. **We love you!**
+We're not doing engagement photos, but we happen to have 9 years of sweet and silly photos together. Enjoy these snapshots of our amazing life. 🧡 **We love you!** 🧡
 
 # Aw!
 
@@ -16,14 +16,18 @@ We're not doing engagement photos but we *are* sharing all these amazing photos 
 
 ## 2024
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vLd15zR0QEk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vLd15zR0QEk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
 
 ## 2022
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oF-L-YcM-r4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oF-L-YcM-r4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
 
 ## 2020
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zZsi-enUrFU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zZsi-enUrFU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
-
+</iframe>
