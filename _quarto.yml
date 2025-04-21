@@ -27,6 +27,8 @@ format:
     theme: 
       - quartz
       - styles.scss
+    scripts:
+      - scripts/nav-scroll.js
 
 editor: visual
 

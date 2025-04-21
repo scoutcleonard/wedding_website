@@ -83,3 +83,8 @@ div.callout .callout-icon::before {
   transform: scale(1.05);
 }
 
+header.navbar {
+  transition: top 0.3s ease-in-out;
+}
+
+
