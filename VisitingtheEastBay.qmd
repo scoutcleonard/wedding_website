@@ -28,55 +28,106 @@ This is just a start, but we could talk about Berkeley, Oakland, San Francisco, 
 ```
 
 ```{=html}
-<div class="gallery"
-<a href="images/elcap2.JPG" data-lightbox="places1">
-  <img src="images/elcap2.JPG" style="width:200px; margin:5px;" />
-</a>
-<a href="images/bridge.jpeg" data-lightbox="places1">
-  <img src="images/bridge.jpeg" style="width:200px; margin:5px;" />
-</a>
-<a href="images/lbl.JPG" data-lightbox="places1">
-  <img src="images/lbl.JPG" style="width:200px; margin:5px;" />
-</a>
-<a href="images/oracle_park.JPG" data-lightbox="places1">
-  <img src="images/oracle_park.JPG" style="width:200px; margin:5px;" />
-</a>
-<a href="images/truckee.jpeg" data-lightbox="places1">
-  <img src="images/truckee.jpeg" style="width:200px; margin:5px;" />
-</a>
-<a href="images/napa3.jpg" data-lightbox="places1">
-  <img src="images/napa3.jpg" style="width:200px; margin:5px;" />
-</a>
+<div class="gallery">
+  <div style="display: inline-block; text-align: center; margin: 5px;">
+    <a href="images/elcap2.JPG" data-lightbox="places1" data-title="El Capitan, Yosemite National Park">
+      <img src="images/elcap2.JPG" style="width:200px;" alt="El Capitan" />
+    </a>
+    <p style="margin-top: 5px; font-size: 0.9em;">El Capitan</p>
+  </div>
+  
+  <div style="display: inline-block; text-align: center; margin: 5px;">
+    <a href="images/bridge.jpeg" data-lightbox="places1" data-title="Golden Gate Bridge, San Francisco">
+      <img src="images/bridge.jpeg" style="width:200px;" alt="Golden Gate Bridge" />
+    </a>
+    <p style="margin-top: 5px; font-size: 0.9em;">Golden Gate Bridge</p>
+  </div>
+  
+  <div style="display: inline-block; text-align: center; margin: 5px;">
+    <a href="images/lbl.JPG" data-lightbox="places1" data-title="Lawrence Berkeley Lab View of the Bay">
+      <img src="images/lbl.JPG" style="width:200px;" alt="Berkeley Lab View" />
+    </a>
+    <p style="margin-top: 5px; font-size: 0.9em;">Berkeley Lab View</p>
+  </div>
+  
+  <div style="display: inline-block; text-align: center; margin: 5px;">
+    <a href="images/oracle_park.JPG" data-lightbox="places1" data-title="Oracle Park, San Francisco">
+      <img src="images/oracle_park.JPG" style="width:200px;" alt="Oracle Park" />
+    </a>
+    <p style="margin-top: 5px; font-size: 0.9em;">Oracle Park</p>
+  </div>
+  
+  <div style="display: inline-block; text-align: center; margin: 5px;">
+    <a href="images/truckee.jpeg" data-lightbox="places1" data-title="Truckee, Lake Tahoe Area">
+      <img src="images/truckee.jpeg" style="width:200px;" alt="Truckee" />
+    </a>
+    <p style="margin-top: 5px; font-size: 0.9em;">Truckee</p>
+  </div>
+  
+  <div style="display: inline-block; text-align: center; margin: 5px;">
+    <a href="images/napa3.jpg" data-lightbox="places1" data-title="Vineyards in Napa Valley">
+      <img src="images/napa3.jpg" style="width:200px;" alt="Napa Valley" />
+    </a>
+    <p style="margin-top: 5px; font-size: 0.9em;">Napa Valley</p>
+  </div>
 </div>
 ```
 
 # Where to Stay
-
-## Suggested Neighborhoods
 
 ::: {.callout collapse="true"}
 ### The Gilman / Westbrae Neightborhood
 
 This may not be a fair suggestion, as hotels are harder to come by, but this is our beloved neighborhood. We'll plan to host in our cozy home for parts of the weekend, so if you can find an AirBnb in our walkable neighborhood, you'll be close to the fun :)
 
-Solano Ave. and North Berkeley BART are convenient from here.
+Solano Ave. and North Berkeley BART are convenient from here. 
+
+**For hotels, try:**
+
+- [The Berkeley Marina Double Tree](https://www.hilton.com/en/hotels/jbkcadt-doubletree-berkeley-marina/)
+- [Aiden by Best Western](https://www.bestwestern.com/en_US/book/hotels-in-berkeley/aiden-by-best-western-berkeley/propertyCode.05754.html)
+
 :::
 
 ::: {.callout collapse="true"}
 ### Downtown Berkeley
 
-Downtown Berkeley is the city's central location for restaurants and attractions. It's near the beautiful UC Berkeley Campus and has access to the Downtown Berkeley BART Station. This neighborhood is also quite close to our ceremony venue, the UC Berkeley Botanical Garden!
+Downtown Berkeley is the city's central location for restaurants and attractions. It's near the beautiful UC Berkeley Campus and has access to the Downtown Berkeley BART Station - 1 stop from us. This neighborhood is also quite close to our ceremony venue, the UC Berkeley Botanical Garden!
 
 You'll find hotels to pick from around here, and some restaurants dear to us ([Jupiter](http://www.jupiterbeer.com/#home)?!?)
+
+**For hotels, try:**
+
+- [The Hilton Graduate Hotel](https://www.hilton.com/en/hotels/oakgbgu-graduate-berkeley/)
+- [Hotel Shattuck Plaza](https://www.hotelshattuckplaza.com)
+- [Berkeley City Club](https://www.berkeleycityclub.com/?gclsrc=aw.ds&gad_source=1&gbraid=0AAAAACIzgUv7gkjWAoX5J2CSexiPLokCR&gclid=Cj0KCQjw_JzABhC2ARIsAPe3ynqBPGcvaNkbK_hK0EB75Vky-p9Y2qns3OUO22i-O1g2I2d98lgj4_AaAkoFEALw_wcB)
+
 :::
 
 ::: {.callout collapse="true"}
 ### Emeryville
 
 Emeryville is proximate to Berkeley and Oakland and is famously home to Pixar Studio's and [America's Bike Mayor](https://www.youtube.com/watch?v=XeO8M4tfV5I). It's a bike- and predestrian-friendly city with access to Berkeley and Oakland. There are a few hotels with views of the Bay here!
+
+**For hotels, try:**
+
+- [Hyatt House Emeryville](https://www.hyatt.com/hyatt-house/en-US/oakxe-hyatt-house-emeryville-san-francisco-bay-area)
+- [Hyatt Place Emeryville](https://www.hyatt.com/hyatt-house/en-US/oakxe-hyatt-house-emeryville-san-francisco-bay-area)
+
 :::
 
-## Suggested Hotels
+::: {.callout collapse="true"}
+### San Francisco
+
+Though across the bay, San Francisco is just a BART ride away (~ 25-30 minutes from Downtown Berkeley) and could be fun if you're coming from the East Coast! If you're hoping to get some site-seeing in, this could be for you!
+
+**For hotels, try:**
+
+- [Hotel Zetta](https://www.zhotelssf.com/hotels/zetta)
+- [The Marker Hotel](https://www.themarkersf.com)
+
+_We just chose these two hotels for their BART access, but we're certain SF has loads of more beautful, comfortable hotels. Let us know if I can help you find one!_
+:::
 
 # Where to Eat
 
