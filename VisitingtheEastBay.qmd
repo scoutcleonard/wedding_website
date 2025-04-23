@@ -76,7 +76,7 @@ This is just a start, but we could talk about Berkeley, Oakland, San Francisco, 
 # Where to Stay
 
 ::: {.callout collapse="true"}
-### The Gilman / Westbrae Neightborhood
+### The Gilman / Westbrae Neighborhood
 
 This may not be a fair suggestion, as hotels are harder to come by, but this is our beloved neighborhood. We'll plan to host in our cozy home for parts of the weekend, so if you can find an AirBnb in our walkable neighborhood, you'll be close to the fun :)
 
