@@ -12,6 +12,8 @@ website:
         text: RSVP
       - href: WeddingWeekend.qmd
         text: Wedding Weekend
+      - href: registry.qmd
+        text: Registry
       - href: VisitingtheEastBay.qmd
         text: Visiting the East Bay
       - href: frivolity.qmd

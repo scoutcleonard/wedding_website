@@ -1,18 +1,21 @@
 ---
 title: "Frivolity/Photos/FUN"
-format: html
-resources:
-  - lightbox.css
-  - lightbox.js
+format:
+  html:
+    toc: true
+    toc-location: right
+    toc-title: "On this page"
+    toc-depth: 3
+    toc-floating: true
 ---
 
 We're not doing engagement photos, but we happen to have 9 years of sweet and silly photos together. Enjoy these snapshots of our amazing life. 🧡 **We love you!** 🧡
 
-# Aw!
+# Photos of Shout 📷
 
-# Marmee
 
-# 1 Second Everyday
+
+# 1 Second Everyday 🎥
 
 ## 2024
 
