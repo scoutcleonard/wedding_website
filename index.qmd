@@ -5,9 +5,3 @@ title: "Shane and Scout are Getting Married!"
 # Join us September 12th, 2025 in Berkeley, CA ♡
 
 ![Out Point Reyes Engagement!](images/us.jpg){fig-align="center"}
-
-
-This website is a collaborative project by [Scout](https://github.com/scoutcleonard) and [Shane](https://github.com/shaned16)
-
-\footnote{Built together on GitHub Pages.}
-

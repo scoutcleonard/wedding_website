@@ -156,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#where-to-stay" id="toc-where-to-stay" class="nav-link active" data-scroll-target="#where-to-stay">Where to Stay</a></li>
-  <li><a href="#where-to-eat" id="toc-where-to-eat" class="nav-link" data-scroll-target="#where-to-eat">Where to Eat</a></li>
+  <li><a href="#our-favorite-foods" id="toc-our-favorite-foods" class="nav-link" data-scroll-target="#our-favorite-foods">Our favorite foods!</a></li>
   <li><a href="#stuff-to-check-out" id="toc-stuff-to-check-out" class="nav-link" data-scroll-target="#stuff-to-check-out">Stuff to Check Out</a></li>
   <li><a href="#other-tips" id="toc-other-tips" class="nav-link" data-scroll-target="#other-tips">Other Tips</a></li>
   </ul>
@@ -323,8 +323,57 @@ San Francisco
 </div>
 </div>
 </section>
-<section id="where-to-eat" class="level1">
-<h1>Where to Eat</h1>
+<section id="our-favorite-foods" class="level1">
+<h1>Our favorite foods!</h1>
+<p>While you spend time in out beloved East Bay, why not check out some of our favorite restaurants?</p>
+<div id="restaurant-map" style="height: 500px;"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+<script>
+// 1. Create the map
+const map = L.map('restaurant-map').setView([37.80, -122.27], 13); // Oakland centered
+
+// 2. Add softer minimalist tiles
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '© OpenStreetMap contributors © CARTO',
+}).addTo(map);
+
+// 3. Your restaurant data
+const restaurants = [
+  {
+    name: "Lovely's",
+    lat: 37.8090,
+    lng: -122.2708,
+    description: "Charming natural wine bar with small plates in Oakland."
+  },
+  {
+    name: "Tacos Oscar",
+    lat: 37.8194,
+    lng: -122.2610,
+    description: "Creative, delicious tacos in a relaxed setting in Oakland."
+  },
+];
+
+// 4. Add markers
+restaurants.forEach(restaurant => {
+  L.marker([restaurant.lat, restaurant.lng])
+    .addTo(map)
+    .bindPopup(`<strong>${restaurant.name}</strong><br>${restaurant.description}`);
+});
+</script>
+
+
+<ul>
+<li>Drakes</li>
+<li>Best Friends</li>
+<li>Good to Eat</li>
+<li>Teni</li>
+<li>Pyeong Chang Tofu House</li>
+<li>Cafe Colucci</li>
+<li></li>
+</ul>
 </section>
 <section id="stuff-to-check-out" class="level1">
 <h1>Stuff to Check Out</h1>
@@ -757,6 +806,26 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Wedding website built by <a href="https://shaned16.github.io">Shane</a> and <a href="https://github.com/scoutcleonard">Scout</a> using <a href="https://quarto.org">Quarto</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/scoutcleonard/wedding_website">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

@@ -1,7 +1,6 @@
 project:
   type: website
   output-dir: docs
-
 website:
   title: "Shane and Scout's Berkeley Wedding"
   navbar:
@@ -25,7 +24,11 @@ website:
             href: "mailto:scoutcleonard@gmail.com"
           - text: Email Shane
             href: "mailto:shanedevlin33@gmail.com"
-
+  page-footer:
+    left: "Wedding website built by [Shane](https://shaned16.github.io) and [Scout](https://github.com/scoutcleonard) using [Quarto](https://quarto.org)"
+    right: 
+      - icon: github
+        href: https://github.com/scoutcleonard/wedding_website
 format:
   html:
     theme: 
@@ -33,8 +36,4 @@ format:
       - styles.scss
     scripts:
       - scripts/nav-scroll.js
-
 editor: visual
-
-
-

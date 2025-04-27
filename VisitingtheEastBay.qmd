@@ -126,7 +126,60 @@ Though across the bay, San Francisco is just a BART ride away (\~ 25-30 minutes 
 *We just chose these two hotels for their BART access, but we're certain SF has loads of more beautful, comfortable hotels. Let us know if I can help you find one!*
 :::
 
-# Where to Eat
+# Our favorite foods!
+
+While you spend time in out beloved East Bay, why not check out some of our favorite restaurants? 
+
+```{=html}
+<div id="restaurant-map" style="height: 500px;"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+<script>
+// 1. Create the map
+const map = L.map('restaurant-map').setView([37.80, -122.27], 13); // Oakland centered
+
+// 2. Add softer minimalist tiles
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '© OpenStreetMap contributors © CARTO',
+}).addTo(map);
+
+// 3. Your restaurant data
+const restaurants = [
+  {
+    name: "Lovely's",
+    lat: 37.8090,
+    lng: -122.2708,
+    description: "Charming natural wine bar with small plates in Oakland."
+  },
+  {
+    name: "Tacos Oscar",
+    lat: 37.8194,
+    lng: -122.2610,
+    description: "Creative, delicious tacos in a relaxed setting in Oakland."
+  },
+];
+
+// 4. Add markers
+restaurants.forEach(restaurant => {
+  L.marker([restaurant.lat, restaurant.lng])
+    .addTo(map)
+    .bindPopup(`<strong>${restaurant.name}</strong><br>${restaurant.description}`);
+});
+</script>
+
+
+```
+
+
+- Drakes
+- Best Friends
+- Good to Eat
+- Teni
+- Pyeong Chang Tofu House
+- Cafe Colucci 
+- 
 
 # Stuff to Check Out
 
