@@ -25,7 +25,7 @@ website:
           - text: Email Shane
             href: "mailto:shanedevlin33@gmail.com"
   page-footer:
-    left: "Wedding website built by [Shane](https://shaned16.github.io) and [Scout](https://github.com/scoutcleonard) using [Quarto](https://quarto.org)"
+    left: "Our wedding wedding website is homemade! Built by [Shane](https://shaned16.github.io) and [Scout](https://github.com/scoutcleonard) using [Quarto](https://quarto.org)"
     right: 
       - icon: github
         href: https://github.com/scoutcleonard/wedding_website

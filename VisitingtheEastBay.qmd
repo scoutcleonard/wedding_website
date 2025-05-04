@@ -123,63 +123,61 @@ Though across the bay, San Francisco is just a BART ride away (\~ 25-30 minutes 
 -   [Hotel Zetta](https://www.zhotelssf.com/hotels/zetta)
 -   [The Marker Hotel](https://www.themarkersf.com)
 
-*We just chose these two hotels for their BART access, but we're certain SF has loads of more beautful, comfortable hotels. Let us know if I can help you find one!*
+*We just chose these two hotels for their BART access, but we're certain SF has loads of more beautful, comfortable hotels. Let us know if we can help you find one!*
 :::
 
 # Our favorite foods!
 
-While you spend time in out beloved East Bay, why not check out some of our favorite restaurants? 
+While you spend time in out beloved East Bay, why not check out some of our favorite restaurants?
 
-```{=html}
-<div id="restaurant-map" style="height: 500px;"></div>
+```{r echo = FALSE}
+#install and load librarian package if needed
+if (!require(librarian)) {
+  install.packages("librarian")
+  library(librarian)
+}
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+# load packages
+shelf(tidyverse, here, ARTofR, ggplot2, leaflet, htmlwidgets)
 
-<script>
-// 1. Create the map
-const map = L.map('restaurant-map').setView([37.80, -122.27], 13); // Oakland centered
-
-// 2. Add softer minimalist tiles
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-  attribution: '© OpenStreetMap contributors © CARTO',
-}).addTo(map);
-
-// 3. Your restaurant data
-const restaurants = [
-  {
-    name: "Lovely's",
-    lat: 37.8090,
-    lng: -122.2708,
-    description: "Charming natural wine bar with small plates in Oakland."
-  },
-  {
-    name: "Tacos Oscar",
-    lat: 37.8194,
-    lng: -122.2610,
-    description: "Creative, delicious tacos in a relaxed setting in Oakland."
-  },
-];
-
-// 4. Add markers
-restaurants.forEach(restaurant => {
-  L.marker([restaurant.lat, restaurant.lng])
-    .addTo(map)
-    .bindPopup(`<strong>${restaurant.name}</strong><br>${restaurant.description}`);
-});
-</script>
-
+# Example: Your favorite places
+places <- tribble(
+  ~name,                ~lat,     ~lng,       ~description,
+  "Lovely's + Two Pitchers",           37.8129, -122.2649,  "Amazing smash burgers and raddlers with a lively outdoor patio. Best enjoyed with Banangrams or a deck of cards.",
+  "Tacos Oscar",        37.8194, -122.2610,  "Creative, delicious tacos in a relaxed setting. Good veg options.",
+  "Jupiter",            37.8704, -122.2697,  "Beloved beer garden and pizza spot in Downtown Berkeley. The patio landscaping is magic.",
+  "Berkeley Bowl",      37.8555, -122.2730,  "The best grocery store on planet earth, and a perfect taste of California produce!",
+  "Prizefighter",       37.8476, -122.2926,  "Cool cocktail bar in Emeryville. Makes for a fun date :)",
+  "Best Friends",       37.8934, -122.2938,  "Wine bar we love with friendly staff and a lovely walk from our house.",
+  "Good To Eat",        37.847294, -122.290626, "Beautiful Taiwanese small plates in Emeryville. Women- and queer- owned!",
+  "Third Culture",      37.856983, -122.291502, "With matcha, black sesame lattes, and mochi muffins, this is a very delicious breakfast spot.",
+  "Cafe Colucci",       37.841808, -122.283707, "Our fav Ethiopean restaurant. Lovely patio.",
+  "Standard Fare",      37.875707, -122.297912, "Hyper seasonal California cuisine at a friendly price. This restaurant feels very special!",
+  "Saul's Restaurant & Delicatessen", 37.880706, -122.269121, "Saul's will fix your sandwich hankering. The latke and egg and eggplant sando is amazing.",
+  "Teni East Kitchen",  37.827918, -122.256738, "Scout chooses this Burmese restaurant for her birthday dinners. There are some very satisfying veg options and beautiful cocktails.",
+  "Boichik Bagels",    37.880492, -122.301321, "The New York Times scandelously claimed the best bagels can be found here in Berkeley - why not see for yourself?",
+  "Pyeong Chang Tofu House", 37.834511, -122.263356, "The coziest meal you can enjoy. September may be too hot for a tofu soup, but maybe we'll get lucky with a cool spell 🤞",
+  "Red Bay Coffee Roasters", 37.777945, -122.225901, "Beautifully roasted coffee in an open space. You must try the seasonal candied yam latte, if available! There's also a location in downtown Oakland.", 
+  "McNally's Irish Pub", 37.839273, -122.251063, "This is a Devlin wedding, so we must recommend our favorite Irish bar! We love to sit by the fireplace for a pint."
+)
 
 ```
 
+```{r echo = FALSE, results = 'asis'}
+leaflet(places) %>% 
+  addProviderTiles(providers$CartoDB.Positron) %>% 
+  addMarkers( ~lng, ~lat,
+              label = ~name,
+              popup = ~paste0("<strong>", 
+                              name, 
+                              "</strong><br>", 
+                              description))
+```
 
-- Drakes
-- Best Friends
-- Good to Eat
-- Teni
-- Pyeong Chang Tofu House
-- Cafe Colucci 
-- 
+-   Drakes
+-   Shan Dong
+-   Tallboy
+-   Marufuku Ramen
 
 # Stuff to Check Out
 
