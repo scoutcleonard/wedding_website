@@ -126,11 +126,11 @@ Though across the bay, San Francisco is just a BART ride away (\~ 25-30 minutes 
 *We just chose these two hotels for their BART access, but we're certain SF has loads of more beautful, comfortable hotels. Let us know if we can help you find one!*
 :::
 
-# Our favorite foods!
+# Our favorites
 
-While you spend time in out beloved East Bay, why not check out some of our favorite restaurants?
+While you spend time in out beloved East Bay, why not check out some of our favorite spots?
 
-```{r echo = FALSE}
+```{r echo = FALSE, warning = FALSE, message=FALSE}
 #install and load librarian package if needed
 if (!require(librarian)) {
   install.packages("librarian")
@@ -174,7 +174,7 @@ places <- tribble(
   "Third Culture",      
   37.856983, -122.291502, 
   "With matcha, black sesame lattes, and mochi muffins, this is a very delicious breakfast spot.",
-  "Cafes",
+  "Cafe",
   "Cafe Colucci",       
   37.841808, -122.283707, 
   "Our fav Ethiopean restaurant. Lovely patio.",
@@ -202,25 +202,41 @@ places <- tribble(
   "Red Bay Coffee Roasters", 
   37.777945, -122.225901, 
   "Beautifully roasted coffee in an open space. You must try the seasonal candied yam latte, if available! There's also a location in downtown Oakland.", 
-  "Cafes",
+  "Cafe",
   "McNally's Irish Pub", 
   37.839273, -122.251063, 
   "This is a Devlin wedding, so we must recommend our favorite Irish bar! We love to sit by the fireplace for a pint.",
   "Bar",
   "Oakland Museum of California",
   37.798125, -122.264561,
-  "Museum!",
-  'Activity')
+  "This museum is great for out-of-towners for a deep dive into California state history and artwork by Californians!",
+  'Activity',
+  'Tall Boy',
+  37.831136, -122.263645,
+  "'tinis and weenies: get your cocktails and hot dogs at this very chic bar.",
+  "Bar",
+  "Shan Dong",
+  37.800606, -122.269992,
+  'I love this Oakland Chinatown restaurant for the sesame nooooodles :)',
+  'Food',
+  "New Parkway Theater",
+  37.813967,-122.267471,
+  "This funky indie movie theater is community-based and a cozy place to see new films and classics. The popcorn seasoning stations can't be missed.",
+  "Activity",
+  "Tilden Regional Park",
+  37.882349,-122.224536,
+  "Alameda and Contra Costa Counties maintain 73(!!!) regional parks in a system called the 'East bay Regional Parks.' Tilden is one of those, in the Berkeley hills. Great for a walk or a hike, and view of SF Bay.",
+  "Activity")
 
 ```
 
 ```{r echo = FALSE, results = 'asis'}
 # Create a color palette
 california_pal <- c(
-  "Food" = "#F6A623",      # poppy orange (link color)
-  "Bar" = "#6d7054",       # sage green
-  "Cafe" = "#B49F78",     # light earthy brown to complement background
-  "Activity" = "#ffd29d"    # soft peach (theme-primary)
+  "Food" = "orchid3",      # poppy orange (link color)
+  "Bar" = "darkolivegreen",       # sage green
+  "Cafe" = "seagreen4",     # light earthy brown to complement background
+  "Activity" = "orange1"    # soft peach (theme-primary)
 )
 
 type_pal <- colorFactor(palette = california_pal, domain = names(california_pal))
@@ -244,9 +260,3 @@ leaflet(places) %>%
     opacity = 1
   )
 ```
-
--   Drakes
--   Shan Dong
--   Tallboy
--   Marufuku Ramen
-
