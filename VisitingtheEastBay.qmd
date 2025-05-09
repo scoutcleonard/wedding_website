@@ -30,10 +30,10 @@ This is just a start, but we could talk about Berkeley, Oakland, San Francisco, 
 ```{=html}
 <div class="gallery">
   <div style="display: inline-block; text-align: center; margin: 5px;">
-    <a href="images/elcap2.JPG" data-lightbox="places1" data-title="El Capitan, Yosemite National Park">
-      <img src="images/elcap2.JPG" style="width:200px;" alt="El Capitan" />
+    <a href="images/elcap2.JPG" data-lightbox="places1" data-title="Half Dome, Yosemite National Park">
+      <img src="images/elcap2.JPG" style="width:200px;" alt="Half Dome" />
     </a>
-    <p style="margin-top: 5px; font-size: 0.9em;">El Capitan</p>
+    <p style="margin-top: 5px; font-size: 0.9em;">Half Dome, Yosemite</p>
   </div>
   
   <div style="display: inline-block; text-align: center; margin: 5px;">
@@ -170,7 +170,7 @@ places <- tribble(
   "Good To Eat",        
   37.847294, -122.290626, 
   "Beautiful Taiwanese small plates in Emeryville. Women- and queer- owned!",
-  "Bar",
+  "Food",
   "Third Culture",      
   37.856983, -122.291502, 
   "With matcha, black sesame lattes, and mochi muffins, this is a very delicious breakfast spot.",
@@ -277,7 +277,7 @@ california_pal <- c(
 type_pal <- colorFactor(palette = california_pal, domain = names(california_pal))
 
 leaflet(places) %>%
-  addProviderTiles(providers$CartoDB.Positron) %>%
+  addProviderTiles(providers$CartoDB.Voyager) %>%
   addCircleMarkers(
     ~lng, ~lat,
     label = ~name,
