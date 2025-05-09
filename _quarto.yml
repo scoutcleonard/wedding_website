@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "Shane and Scout's Berkeley Wedding"
+  title: "<img src='images/poppy_logo.png' alt='California Poppy' style='height:40px;'> Shane and Scout's Berkeley Wedding"
   navbar:
     left:
       - href: index.qmd
