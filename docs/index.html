@@ -164,12 +164,37 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="join-us-september-12th-2025-in-berkeley-ca" class="level1">
 <h1>Join us September 12th, 2025 in Berkeley, CA ♡</h1>
+<p id="countdown" style="font-size: 1.2em; font-weight: bold; color: #F6A623; text-align: center;">
+</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/us.jpg" class="img-fluid figure-img"></p>
 <figcaption>Out Point Reyes Engagement!</figcaption>
 </figure>
 </div>
+<script>
+  // Set your wedding date
+  const weddingDate = new Date("2025-09-12T00:00:00");
+  const today = new Date();
+
+  // Remove time portion for accuracy
+  today.setHours(0, 0, 0, 0);
+
+  const timeDiff = weddingDate - today;
+  const daysToGo = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+
+  let countdownText;
+
+  if (daysToGo > 0) {
+    countdownText = `See you in ${daysToGo} day${daysToGo === 1 ? '' : 's'}!`;
+  } else if (daysToGo === 0) {
+    countdownText = "Today’s the day!";
+  } else {
+    countdownText = "We’re married!";
+  }
+
+  document.getElementById("countdown").textContent = countdownText;
+</script>
 
 
 </section>

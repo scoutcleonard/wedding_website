@@ -4,4 +4,31 @@ title: "Shane and Scout are Getting Married!"
 
 # Join us September 12th, 2025 in Berkeley, CA ♡
 
+<p id="countdown" style="font-size: 1.2em; font-weight: bold; color: #F6A623; text-align: center;"></p>
+
 ![Out Point Reyes Engagement!](images/us.jpg){fig-align="center"}
+
+<script>
+  // Set your wedding date
+  const weddingDate = new Date("2025-09-12T00:00:00");
+  const today = new Date();
+
+  // Remove time portion for accuracy
+  today.setHours(0, 0, 0, 0);
+
+  const timeDiff = weddingDate - today;
+  const daysToGo = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+
+  let countdownText;
+
+  if (daysToGo > 0) {
+    countdownText = `See you in ${daysToGo} day${daysToGo === 1 ? '' : 's'}!`;
+  } else if (daysToGo === 0) {
+    countdownText = "Today’s the day!";
+  } else {
+    countdownText = "We’re married!";
+  }
+
+  document.getElementById("countdown").textContent = countdownText;
+</script>
+
