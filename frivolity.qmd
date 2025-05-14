@@ -41,7 +41,3 @@ We're not doing engagement photos, but we happen to have 9 years of sweet and si
 
 </iframe>
 
-# Games
-
-<iframe src="https://studiokit.itch.io/botanical-garden-simulator" width="700" height="500" frameborder="0" style="border: 2px solid #ccc; border-radius: 12px; margin: 20px auto; display: block;" allowfullscreen></iframe>
-
