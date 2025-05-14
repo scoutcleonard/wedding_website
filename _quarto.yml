@@ -3,6 +3,7 @@ project:
   output-dir: docs
 website:
   title: "<img src='images/poppy_logo.png' alt='California Poppy' style='height:40px;'> Shane and Scout's Berkeley Wedding"
+  google-analytics: "489258557"
   navbar:
     left:
       - href: index.qmd
