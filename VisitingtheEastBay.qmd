@@ -262,7 +262,19 @@ places <- tribble(
   "Coffee Conscious",
   37.88116, -122.289401,
   "Check out the funky art for sale by local artists and enjoy some lovely medium roast espresso drinks. The vanilla clove latte is so nice!",
-  'Cafe')
+  'Cafe',
+  "Sol Food",
+  37.978369, -122.522013,
+  "We love Sol Food for filling and falvorful Puerto Rican food after hiking or biking over in Marin. The drinks taste like being on vacation.",
+  'Food',
+  'Baker Beach',
+  37.793374, -122.482568,
+  "With the warning that this is a nude beach, we recommend you visit for the less weird views - the Golden Gate Bridge!",
+  'Activity',
+  'Musée Mécanique', 
+  37.80968, -122.417478,
+  'We always bring out-of-town visitors here for a fun antique arcade experience. Remember Julie Andrews playing the arm-wrestling game in the Princess Diaries? That was here!',
+  'Activity')
 ```
 
 ```{r echo = FALSE, results = 'asis'}
