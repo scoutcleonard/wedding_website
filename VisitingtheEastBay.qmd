@@ -300,7 +300,11 @@ places <- tribble(
   'Nabolom',
   37.858354,-122.252848,
   'Cute bakery in the Elmwood Neighborhood with Espresso drinks and lunch',
-  'Cafe'
+  'Cafe',
+  'Drakes Dealership',
+  37.812992,-122.26616,
+  'Local brewery with good food and a nice outdoor patio',
+  'Food'
   )
 ```
 
