@@ -162,7 +162,7 @@ places <- tribble(
   "Cool cocktail bar in Emeryville. Makes for a fun date :)", 
   "Bar",
   "Best Friends",       
-  37.8934, -122.2938,  
+  37.890109,-122.298727,  
   "Wine bar we love with friendly staff and a lovely walk from our house.",
   "Bar",
   "Good To Eat",        
