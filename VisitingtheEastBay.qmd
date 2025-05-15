@@ -26,7 +26,6 @@ This is just a start, but we could talk about Berkeley, Oakland, San Francisco, 
 ```{=html}
 <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
 ```
-
 ```{=html}
 <div class="gallery">
   <div style="display: inline-block; text-align: center; margin: 5px;">
@@ -72,7 +71,6 @@ This is just a start, but we could talk about Berkeley, Oakland, San Francisco, 
   </div>
 </div>
 ```
-
 # Where to Stay
 
 ::: {.callout collapse="true"}
@@ -274,7 +272,36 @@ places <- tribble(
   'Musée Mécanique', 
   37.80968, -122.417478,
   'We always bring out-of-town visitors here for a fun antique arcade experience. Remember Julie Andrews playing the arm-wrestling game in the Princess Diaries? That was here!',
-  'Activity')
+  'Activity',
+  'George & Waltz',
+  37.841086,-122.251693,
+  'Great dive bar on College Ave sporting two King-Of-The-Hill style pool tables. If you see Dirty Dan in there, tell him to shut the hell up.',
+  'Bar',
+  'Club Mallard',
+  37.892374,-122.299922,
+  'This bar is a jack of all trades, master of none. First floor is a hunting lodge, back patio is a Tiki Bar, second floor is a pool hall!',
+  'Bar',
+  "Zaytoon - Mediterranean",
+  37.890479,-122.297815,
+  'Good Mediterranean on Solano Ave with great cocktails. I recommend the lamb!',
+  "Food",
+  'Rose Pizzeria',
+  37.871608,-122.271479,
+  'Great New York style pizza! The pepperoni and jalapeno is delicious',
+  'Food',
+  'Hopkins Street Bakery',
+  37.88178,-122.281512,
+  'No frils bakery in our neighborhood. Pop across the street to Cafe Roma for a great Espresso',
+  'Cafe',
+  'Cafe Roma',
+  37.881738,-122.282341,
+  'Great Espresso shop with an ivy-covered patio',
+  'Cafe',
+  'Nabolom',
+  37.858354,-122.252848,
+  'Cute bakery in the Elmwood Neighborhood with Espresso drinks and lunch',
+  'Cafe'
+  )
 ```
 
 ```{r echo = FALSE, results = 'asis'}
