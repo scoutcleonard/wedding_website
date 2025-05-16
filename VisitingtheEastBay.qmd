@@ -325,7 +325,7 @@ places <- tribble(
   37.78798, -122.427149,
   "A fantastic dining experience filled with seasonal, flavorful treasures. Our dear friend Susan introduced this restaurant to us in her time as a chef here!",
   'Food',
-  'Saltwater Oyster Show',
+  'Saltwater Oyster Depot',
   38.096596, -122.852139,
   "We love this cozy oyster bar and restaurant.",
   "Food",
@@ -336,7 +336,12 @@ places <- tribble(
   'Pizzaiolo',
   37.836594, -122.262152,
   "A sweet selection of Italian dishes and pizzas with an open back patio. The buratta and foaccia is soooo good.",
-  'Food')
+  'Food',
+  'Kingfish Pub',
+  37.838425,-122.262442,
+  'Great bar in the temescal neighborhood. Theyve got popcorn and shuffle board!',
+  'Bar'
+  )
 ```
 
 ```{r echo = FALSE, results = 'asis'}
