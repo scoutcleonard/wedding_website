@@ -82,8 +82,8 @@ Solano Ave. and North Berkeley BART are convenient from here.
 
 **For hotels, try:**
 
--   [The Berkeley Marina Double Tree](https://www.hilton.com/en/hotels/jbkcadt-doubletree-berkeley-marina/)
--   [Aiden by Best Western](https://www.bestwestern.com/en_US/book/hotels-in-berkeley/aiden-by-best-western-berkeley/propertyCode.05754.html)
+-   <a href="https://www.hilton.com/en/hotels/jbkcadt-doubletree-berkeley-marina/" target="_blank" rel="noopener noreferrer"><strong>The Berkeley Marina Double Tree</strong></a>
+-   <a href="https://www.bestwestern.com/en_US/book/hotels-in-berkeley/aiden-by-best-western-berkeley/propertyCode.05754.html" target="_blank" rel="noopener noreferrer"><strong>Aiden by Best Western</strong></a>
 :::
 
 ::: {.callout collapse="true"}
@@ -91,13 +91,15 @@ Solano Ave. and North Berkeley BART are convenient from here.
 
 Downtown Berkeley is the city's central location for restaurants and attractions. It's near the beautiful UC Berkeley Campus and has access to the Downtown Berkeley BART Station - 1 stop from us. This neighborhood is also quite close to our ceremony venue, the UC Berkeley Botanical Garden!
 
-You'll find hotels to pick from around here, and some restaurants dear to us ([Jupiter](http://www.jupiterbeer.com/#home)?!?)
+You'll find hotels to pick from around here, and some restaurants dear to us
+<a href="http://www.jupiterbeer.com/#home" target="_blank" rel="noopener noreferrer"><strong>Jupiter?!?</strong></a>
+
 
 **For hotels, try:**
 
--   [The Hilton Graduate Hotel](https://www.hilton.com/en/hotels/oakgbgu-graduate-berkeley/)
--   [Hotel Shattuck Plaza](https://www.hotelshattuckplaza.com)
--   [Berkeley City Club](https://www.berkeleycityclub.com/?gclsrc=aw.ds&gad_source=1&gbraid=0AAAAACIzgUv7gkjWAoX5J2CSexiPLokCR&gclid=Cj0KCQjw_JzABhC2ARIsAPe3ynqBPGcvaNkbK_hK0EB75Vky-p9Y2qns3OUO22i-O1g2I2d98lgj4_AaAkoFEALw_wcB)
+-   <a href="https://www.hilton.com/en/hotels/oakgbgu-graduate-berkeley/" target="_blank" rel="noopener noreferrer"><strong>The Hilton Graduate Hotel</strong></a>
+-   <a href="https://www.hotelshattuckplaza.com" target="_blank" rel="noopener noreferrer"><strong>Hotel Shattuck Plaza</strong></a>
+-   <a href="https://www.berkeleycityclub.com/?gclsrc=aw.ds&gad_source=1&gbraid=0AAAAACIzgUv7gkjWAoX5J2CSexiPLokCR&gclid=Cj0KCQjw_JzABhC2ARIsAPe3ynqBPGcvaNkbK_hK0EB75Vky-p9Y2qns3OUO22i-O1g2I2d98lgj4_AaAkoFEALw_wcB" target="_blank" rel="noopener noreferrer"><strong>Berkeley City Club</strong></a>
 :::
 
 ::: {.callout collapse="true"}
@@ -107,8 +109,8 @@ Emeryville is proximate to Berkeley and Oakland and is famously home to Pixar St
 
 **For hotels, try:**
 
--   [Hyatt House Emeryville](https://www.hyatt.com/hyatt-house/en-US/oakxe-hyatt-house-emeryville-san-francisco-bay-area)
--   [Hyatt Place Emeryville](https://www.hyatt.com/hyatt-house/en-US/oakxe-hyatt-house-emeryville-san-francisco-bay-area)
+-   <a href="https://www.hyatt.com/hyatt-house/en-US/oakxe-hyatt-house-emeryville-san-francisco-bay-area" target="_blank" rel="noopener noreferrer"><strong>Hyatt House Emeryville</strong></a>
+-   <a href="https://hyattplaceemeryvillesanfranciscobayarea.reservationstays.com/hotels/LlYYe5pl?utm_source=adwords_semro&utm_campaign=G%3ARS%3AUS%3APPC%3ANB%3AProp%3AUS-US%3AEN%3A3-Star&gad_source=1&gad_campaignid=11322797434&gbraid=0AAAAAo1QcNkpa2jnWsyHiX9Gf8HBR50Lt&gclid=Cj0KCQjwxJvBBhDuARIsAGUgNfhwLF8ZWH98qna9xcdXvXpiI9AxCYvP-2loHGkJgpmcVLXeXLgYXXkaAhvsEALw_wcB&expand_params=false" target="_blank" rel="noopener noreferrer"><strong>Hyatt Place Emeryville</strong></a> 
 :::
 
 ::: {.callout collapse="true"}
@@ -118,8 +120,8 @@ Though across the bay, San Francisco is just a BART ride away (\~ 25-30 minutes 
 
 **For hotels, try:**
 
--   [Hotel Zetta](https://www.zhotelssf.com/hotels/zetta)
--   [The Marker Hotel](https://www.themarkersf.com)
+-   <a href="https://www.zhotelssf.com/hotels/zetta" target="_blank" rel="noopener noreferrer"><strong>Hotel Zetta</strong></a>
+-   <a href="https://www.themarkersf.com" target="_blank" rel="noopener noreferrer"><strong>The Marker Hotel</strong></a>
 
 *We just chose these two hotels for their BART access, but we're certain SF has loads of more beautful, comfortable hotels. Let us know if we can help you find one!*
 :::
@@ -340,7 +342,11 @@ places <- tribble(
   'Kingfish Pub',
   37.838425,-122.262442,
   'Great bar in the temescal neighborhood. Theyve got popcorn and shuffle board!',
-  'Bar'
+  'Bar',
+  'Marufuku Ramen Shop',
+  37.835078,-122.262578,
+  'Ramen shop in the Temescal neighborhood',
+  'Food'
   )
 ```
 
