@@ -129,7 +129,7 @@ Though across the bay, San Francisco is just a BART ride away (\~ 25-30 minutes 
 
 # Our favorites
 
-While you spend time in out beloved East Bay, why not check out some of our favorite spots?
+While you spend time in our beloved East Bay, why not check out some of our favorite spots?
 
 ```{r echo = FALSE, warning = FALSE, message=FALSE}
 #install and load librarian package if needed
