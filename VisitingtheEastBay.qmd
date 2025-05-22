@@ -73,6 +73,8 @@ This is just a start, but we could talk about Berkeley, Oakland, San Francisco, 
 ```
 # Where to Stay
 
+Click the neighborhood to see our recommended hotels!
+
 ::: {.callout collapse="true"}
 ### The Gilman / Westbrae Neighborhood
 
