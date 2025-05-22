@@ -83,7 +83,6 @@ Solano Ave. and North Berkeley BART are convenient from here.
 **For hotels, try:**
 
 -   <a href="https://www.hilton.com/en/hotels/jbkcadt-doubletree-berkeley-marina/" target="_blank" rel="noopener noreferrer"><strong>The Berkeley Marina Double Tree</strong></a>
--   <a href="https://www.bestwestern.com/en_US/book/hotels-in-berkeley/aiden-by-best-western-berkeley/propertyCode.05754.html" target="_blank" rel="noopener noreferrer"><strong>Aiden by Best Western</strong></a>
 :::
 
 ::: {.callout collapse="true"}
