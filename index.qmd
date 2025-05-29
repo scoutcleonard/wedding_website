@@ -8,7 +8,7 @@ title: "Shane and Scout are Getting Married!"
 
 </p>
 
-![Out Point Reyes Engagement!](images/us.jpg){fig-align="center"}
+![Our Point Reyes Engagement!](images/us.jpg){fig-align="center"}
 
 ```{=html}
 <script>
