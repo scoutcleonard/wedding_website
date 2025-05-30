@@ -347,7 +347,19 @@ places <- tribble(
   'Marufuku Ramen Shop',
   37.835078,-122.262578,
   'Ramen shop in the Temescal neighborhood',
-  'Food'
+  'Food',
+  'Lulu',
+  37.890191, -122.298449,
+  "We're not normally brunch people, but bright and flavorful Palestinian dishes at Lulu are a wonderful exception!",
+  'Food',
+  'Pacific Pipe',
+  37.815355, -122.289258,
+  "I read somewhere that this is the largest indoor climbing gym in the country! There's a coffee stand inside, a taco truck outside, a sauna, and alllll the bouldering routes you'll need to spend a Saturday.",
+  "Activity",
+  'Faction Brewing',
+  37.786495, -122.30929,
+  "Enjoy a beer at the former Alameda Naval Air Station. The views of the Bay are unmatched, especially at sunset.",
+  'Bar'
   )
 ```
 
