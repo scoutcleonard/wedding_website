@@ -26,6 +26,7 @@ This is just a start, but we could talk about Berkeley, Oakland, San Francisco, 
 ```{=html}
 <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
 ```
+
 ```{=html}
 <div class="gallery">
   <div style="display: inline-block; text-align: center; margin: 5px;">
@@ -71,6 +72,7 @@ This is just a start, but we could talk about Berkeley, Oakland, San Francisco, 
   </div>
 </div>
 ```
+
 # Where to Stay
 
 Click the neighborhood to see our recommended hotels!
@@ -92,9 +94,7 @@ Solano Ave. and North Berkeley BART are convenient from here.
 
 Downtown Berkeley is the city's central location for restaurants and attractions. It's near the beautiful UC Berkeley Campus and has access to the Downtown Berkeley BART Station - 1 stop from us. This neighborhood is also quite close to our ceremony venue, the UC Berkeley Botanical Garden!
 
-You'll find hotels to pick from around here, and some restaurants dear to us
-<a href="http://www.jupiterbeer.com/#home" target="_blank" rel="noopener noreferrer"><strong>Jupiter?!?</strong></a>
-
+You'll find hotels to pick from around here, and some restaurants dear to us <a href="http://www.jupiterbeer.com/#home" target="_blank" rel="noopener noreferrer"><strong>Jupiter?!?</strong></a>
 
 **For hotels, try:**
 
@@ -111,7 +111,7 @@ Emeryville is proximate to Berkeley and Oakland and is famously home to Pixar St
 **For hotels, try:**
 
 -   <a href="https://www.hyatt.com/hyatt-house/en-US/oakxe-hyatt-house-emeryville-san-francisco-bay-area" target="_blank" rel="noopener noreferrer"><strong>Hyatt House Emeryville</strong></a>
--   <a href="https://hyattplaceemeryvillesanfranciscobayarea.reservationstays.com/hotels/LlYYe5pl?utm_source=adwords_semro&utm_campaign=G%3ARS%3AUS%3APPC%3ANB%3AProp%3AUS-US%3AEN%3A3-Star&gad_source=1&gad_campaignid=11322797434&gbraid=0AAAAAo1QcNkpa2jnWsyHiX9Gf8HBR50Lt&gclid=Cj0KCQjwxJvBBhDuARIsAGUgNfhwLF8ZWH98qna9xcdXvXpiI9AxCYvP-2loHGkJgpmcVLXeXLgYXXkaAhvsEALw_wcB&expand_params=false" target="_blank" rel="noopener noreferrer"><strong>Hyatt Place Emeryville</strong></a> 
+-   <a href="https://hyattplaceemeryvillesanfranciscobayarea.reservationstays.com/hotels/LlYYe5pl?utm_source=adwords_semro&utm_campaign=G%3ARS%3AUS%3APPC%3ANB%3AProp%3AUS-US%3AEN%3A3-Star&gad_source=1&gad_campaignid=11322797434&gbraid=0AAAAAo1QcNkpa2jnWsyHiX9Gf8HBR50Lt&gclid=Cj0KCQjwxJvBBhDuARIsAGUgNfhwLF8ZWH98qna9xcdXvXpiI9AxCYvP-2loHGkJgpmcVLXeXLgYXXkaAhvsEALw_wcB&expand_params=false" target="_blank" rel="noopener noreferrer"><strong>Hyatt Place Emeryville</strong></a>
 :::
 
 ::: {.callout collapse="true"}
@@ -149,7 +149,7 @@ places <- tribble(
   "Amazing smash burgers and raddlers with a lively outdoor patio. Best enjoyed with Banangrams or a deck of cards.", 
   "Food",
   "Tacos Oscar",       
-  37.8194, -122.2610,  
+  37.828721, -122.260448,  
   "Creative, delicious tacos in a colorful outdoor setting. Great veg options.", 
   "Food",
   "Jupiter",           
@@ -157,7 +157,7 @@ places <- tribble(
   "Beloved beer garden and pizza spot in Downtown Berkeley. The patio landscaping is magic.",
   "Food",
   "Berkeley Bowl",      
-  37.8555, -122.2730,  
+  37.853534, -122.290376,  
   "The best grocery store on planet earth, and a perfect taste of California produce!",
   "Food",
   "Prizefighter",       
@@ -359,7 +359,19 @@ places <- tribble(
   'Faction Brewing',
   37.786495, -122.30929,
   "Enjoy a beer at the former Alameda Naval Air Station. The views of the Bay are unmatched, especially at sunset.",
-  'Bar'
+  'Bar',
+  'Edible Schoolyard',
+  37.881502, -122.27777,
+  "This is a school garden at a Berkeley middle school, but open to the public after school hours. It's founded by Alice Waters and has all the food and flowers thoughtfully planted to ignite your sense of wonder!",
+  'Activity',
+  'North Light',
+  37.836137, -122.26279,
+  "A bar, a bookshop, some funky records - what more does one need?",
+  "Bar",
+  'Highwire Coffee Roasters',
+  37.890412, -122.291572,
+  "Flowerland Nursery has a coffee truck nestled amongst the fig trees and sage bushes - Highwire :) You can grab a coffee to go and browse the beautifully arranged plants and sweet gift shop.",
+  'Cafe'
   )
 ```
 
